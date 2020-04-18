@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(20, 20, 22);
+    background-color: rgb(35, 35, 39);
     color: #fff;
 }
 
@@ -10,7 +10,7 @@ img{
 
 .profile{
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
@@ -30,5 +30,13 @@ img{
 i{
     font-size: 30px;
     color: #fff;
+}
+
+.typed{
+    margin-bottom: 10px;
+}
+
+#typed{
+    font-size: 20px;
 }
  
