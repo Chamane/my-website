@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/skeleton.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/all.css">
     <title>Portfolio</title>
@@ -25,10 +27,26 @@
         </div>
         <div class="profile-text">
             <h1>Madsen Williams Servius</h1>
-            <h2>Professional developer</h2>
+            <span id="typed"></span>
+            <div id='typed-strings'>
+                <h2>I am a Full Stack and DevOps engineer</h2>
+                <h2>I use <bold>Django</bold> & <bold>Flask</bold> framework extensively</h2>
+                <h2>I live in Port-au-Prince</h2>
+            </div>
             <a href="#"><i class="fas fa-chevron-down"></i></a>
         </div>
     </div>
     
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script>
+        var typed = new Typed('#typed', {
+            stringsElement: '#typed-strings',
+            backSpeed: 5,
+            typeSpeed: 25,
+            smartBackspace: true,
+            loop: true,
+            backDelay: 2000
+        });
+    </script>
 </body>
 </html>
