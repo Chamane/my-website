@@ -41,10 +41,10 @@ i{
 }
 
 .fa-chevron-down {
-    -webkit-animation: scrolling 3s ease infinite;
-    -moz-animation: scrolling 3s ease infinite;
-    -o-animation: scrolling 3s  ease infinite;
-    animation: scrolling 3s ease infinite;
+    -webkit-animation: scrolling 5s ease infinite;
+    -moz-animation: scrolling 5s ease infinite;
+    -o-animation: scrolling 5s  ease infinite;
+    animation: scrolling 5s ease infinite;
 }
     
 @keyframes scrolling {
